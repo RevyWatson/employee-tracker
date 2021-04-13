@@ -19,10 +19,12 @@ This application was designed to help companies navigate, organize and manage th
 1. Open the command terminal on your machine.
 2. Navigate through your file system to the location of the “employee-tracker.js” file.
 3. Within the same root folder, create a .gitignore.txt file to ignore the node modules.
-4. Install the Inquirer package by typing “npm install inquirer”.
-5. Install the mySQL package by typing “npm install mysql”.
-6. Type, “node employee-tracker.js” to run the application.
-7. Answer and follow the prompts to navigate throught the options.
+4. Within the same root folder, type "npm init" or "npm init -y" (if you wish to answer yes to all of the prompts) to create a package.json file.
+5. Install the Inquirer package by typing “npm install inquirer”.
+6. Install the mySQL package by typing “npm install mysql”.
+7. Install console.table by typing "npm install console.table --save".
+8. Type, “node employee-tracker.js” to run the application.
+9. Answer and follow the prompts to navigate throught the options.
 
   ## Usage
 
