@@ -29,7 +29,7 @@ __Opening the Application__
 5. Install the Inquirer package by typing “npm install inquirer”.
 6. Install the mySQL package by typing “npm install mysql”.
 7. Install console.table by typing "npm install console.table --save".
-8. Type, “node employee-tracker.js” to run the application.
+8. Type, “node employee-trackerAPP.js” to run the application.
 9. Answer and follow the prompts to navigate throught the options.
 
   ## Usage
