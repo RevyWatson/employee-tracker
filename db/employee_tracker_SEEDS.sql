@@ -27,10 +27,6 @@ FOREIGN KEY (role_id) REFERENCES role(id),
 FOREIGN KEY (manager_id) REFERENCES employee(id)
 );
 
-SELECT * FROM department;
-SELECT * FROM role;
-SELECT * FROM employee;
-
 INSERT INTO department (dept_name)
 VALUES ("Management"), ("Field Work"), ("Research and Developement"), ("Contracter");
 
