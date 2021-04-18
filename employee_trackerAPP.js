@@ -28,7 +28,7 @@ const mainMenu = () => {
             "View all by departments",
             "View all by roles",
             "View all by employees",
-            "Update employee role",
+            // "Update employee role",
             // "Delete department",
             // "Delete role",
             // "Remove employee",
@@ -61,9 +61,9 @@ const mainMenu = () => {
                     viewEmployees();
                     break;
 
-                case "Update employee role":
-                    updateRole();
-                    break;
+                // case "Update employee role":
+                //     updateRole();
+                //     break;
 
                 // case "Delete department":
                 //     deleteDepartment();
