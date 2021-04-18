@@ -1,0 +1,30 @@
+{
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "This application was designed to help companies navigate, organize and manage their employee database from the command line terminal. It was built with [NodeJS](https://nodejs.org/en/) and utilizes the [Inquirer package](https://www.npmjs.com/package/inquirer) and the [MySQL](https://www.npmjs.com/package/mysql) package to connect to a MySQL database and perform queries. The user should be able to:",
+  "main": "employee_trackerAPP.js",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "dotenv": "^8.2.0",
+    "inquirer": "^8.0.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RevyWatson/employee-tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RevyWatson/employee-tracker/issues"
+  },
+  "homepage": "https://github.com/RevyWatson/employee-tracker#readme"
+}
