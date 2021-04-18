@@ -14,6 +14,8 @@ This application was designed to help companies navigate, organize and manage th
   - [Usage](#usage)
   - [Questions](#questions)
 
+![Screenshot (90)](https://user-images.githubusercontent.com/76264693/115132292-f48da380-9fcc-11eb-91a4-cf9a75c8d576.png)
+
 ## Installation
 
 __Uploading the mySQL Database__
@@ -24,17 +26,28 @@ __Uploading the mySQL Database__
 __Opening the Application__
 1. Open the command terminal on your machine.
 2. Navigate through your file system to the location of the “employee-trackerAPP.js” file.
-3. Within the same root folder, create a .gitignore.txt file to ignore the node modules.
-4. Within the same root folder, type "npm init" or "npm init -y" (if you wish to answer yes to all of the prompts) to create a package.json file.
-5. Install the Inquirer package by typing “npm install inquirer”.
-6. Install the mySQL package by typing “npm install mysql”.
-7. Install console.table by typing "npm install console.table --save".
-8. Type, “node employee-trackerAPP.js” to run the application.
-9. Answer and follow the prompts to navigate throught the options.
+3. Within the same root folder create a .gitignore.txt file 
+type the following within:
+```
+node_modules/.DS_Store
+jspm_packages
+package-lock.json
+.env
+```
+4. Return to the root folder in the command line terminal and type "npm init" or "npm init -y" (if you wish to answer yes to all of the prompts) to create a package.json file.
+5. Install the Inquirer package, mySQL package, console.table package, and a dotenv file by typing “npm i”.
+6. Open the dotenv file and add your local instance name and password like so:
+```
+DB_USER="your local instance's name"
+DB_PASSWORD="your mySQL Workbench password"
+DB_NAME=employee_trackerDB
+```
+7. Return to the root folder in the command line terminal and type, “node employee-trackerAPP.js” to run the application.
+9. Answer and follow the prompts to navigate through the options.
 
   ## Usage
 
-  Click the link to view the [Employee Tracker]() in action!
+  Click the link to view the [Employee Tracker](https://youtu.be/nlGdAkMBkUY) in action!
 [insert images here]
 
   ## Questions
